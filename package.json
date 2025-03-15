@@ -1,0 +1,13 @@
+{
+	"name": "electron_fuse_flipper",
+	"version": "1.0.0",
+	"description": "CLI tool to configure Electron fuses.",
+	"main": "src/index.js",
+	"bin": {
+		"eff": "./src/index.js"
+	},
+	"dependencies": {
+		"@electron/fuses": "^1.0.0",
+		"yargs": "^17.0.0"
+	}
+}
